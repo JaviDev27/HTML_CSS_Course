@@ -1,0 +1,12 @@
+/*  html hace que herede para todos
+los tags*/
+
+html{
+    font-size: 75%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* usando inherit hereda del padre
+en este caso es html */
+h1{
+    font-size: inherit;
+}
