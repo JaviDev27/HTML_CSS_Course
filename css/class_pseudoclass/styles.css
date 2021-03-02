@@ -1,0 +1,31 @@
+.main-nav{
+    margin-top: 10px;
+    list-style: none;
+    padding: 0px;
+    background-color: blueviolet;
+}
+
+.main-nav__item{
+    display: inline-block;
+}
+
+.main-nav__item a{
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+/* pseudo elemento */
+.main-nav__item a:hover{
+    color: yellow;
+}
+
+.main-nav__item a:active{
+    color: red;
+}
+
+/* pseudo clases */
+.main-nav__item a::after{
+    content: " |";
+}

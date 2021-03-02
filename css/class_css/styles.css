@@ -1,0 +1,18 @@
+p {
+    color: red;
+    font-size: 23px;
+  }
+
+ /* llamado por clase selector */
+
+ .parrafo{
+     color: blue;
+ }
+
+ /* Id */
+#texto{
+    color: green;
+}
+
+
+
