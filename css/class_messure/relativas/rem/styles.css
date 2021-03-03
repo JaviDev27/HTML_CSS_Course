@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    /* Estoy seteando a que un rem sea 10px */
+    font-size: 62.5%;
+}
+
+p{
+    /* si quiero 
+    16px 1.6rem
+    20px 2rem 
+    30px 3rem*/
+    font-size: 1.6rem;
+}
+
+ main div{
+     font-size: 1.6rem;
+ }

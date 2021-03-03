@@ -1,0 +1,28 @@
+
+/* aplica a todas las etiquetas p
+que esten cerca de un h2
+Combinador Hermano Cercano */
+/* h2 + p{
+    color: red;
+}
+ */
+
+/* aplica el estilo a todos 
+los que se encuentran precedidos
+en la misma linea*/
+/* 
+h2 ~ p{
+    color: blue;
+} */
+
+/* etiqueta p que sea hija directa de 
+div */
+/* div > p {
+    color: aquamarine;
+} */
+
+/* Descendiente,
+todas las etiquetas ue sean descendientes */
+div p{
+    color: red;
+}

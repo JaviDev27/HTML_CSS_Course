@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ocupa el 100% de viewport
+tanto en ancho como alto  */
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+section{
+    width: 80%;
+    /* tiene un minimo pero si hay mas este crece */
+    min-height: 500px;
+    /* al usar un min max en el width se necesita tener un width
+    base y casi siempre es esta base en porcentajes*/
+    min-width: 320px;
+    max-width: 500px;
+    /* el margen superior e inferior son cero
+    pero los laterales se ajustan de forma automática */
+    margin: 0 auto;
+    background-color: beige;
+}
+
